@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(MeshRenderer))]
-public class ExitPortal : MonoBehaviour
+public class ExitPortal : MonoBehaviour, IDestroyOnClone
 {
     [SerializeField] private MeshRenderer portalMeshRenderer;
     [SerializeField] private MeshRenderer iconMeshRenderer;
@@ -15,8 +15,8 @@ public class ExitPortal : MonoBehaviour
 
     public bool active = false;
 
-    public int nextSceneId;
-    
+    public int nextSceneId = -1;
+
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -35,7 +35,12 @@ public class ExitPortal : MonoBehaviour
         if (!active) return;
         if (Input.GetKeyDown(KeyCode.E))
         {
-            //add fadeout
+            var sceneCount = SceneManager.sceneCountInBuildSettings;
+            var currentScene = SceneManager.GetActiveScene().buildIndex;
+
+            if (nextSceneId < 0) nextSceneId = ++currentScene;
+            if (nextSceneId >= sceneCount) nextSceneId = 0;
+
             SceneManager.LoadScene(nextSceneId);
         }
     }

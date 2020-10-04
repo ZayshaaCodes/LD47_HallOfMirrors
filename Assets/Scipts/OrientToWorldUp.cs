@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OrientToWorldUp : MonoBehaviour
+public class OrientToWorldUp : MonoBehaviour, IDestroyOnClone
 {
 
     public float changeRate = 200; //degrees per second

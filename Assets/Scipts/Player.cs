@@ -7,7 +7,7 @@ using Unity.Mathematics;
 using UnityEngine;
 
 [SelectionBase]
-public class Player : MonoBehaviour, ILoopBehaviour
+public class Player : MonoBehaviour, ILoopBehaviour, IDestroyOnClone
 {
     private Rigidbody2D _rb;
     [SerializeField] private float jumpForce = 5;

@@ -1,12 +1,9 @@
-using System;
 using Unity.Mathematics;
 using UnityEngine;
 
 [ExecuteAlways]
-public class LoopingWorldRenderer : MonoBehaviour
+public class LoopingWorldRenderer : MonoBehaviour, IDestroyOnClone
 {
-    
-    
     public Vector2 bSize = new Vector2(20, 10);
 
     public int depthCount = 3;
@@ -16,8 +13,6 @@ public class LoopingWorldRenderer : MonoBehaviour
 
     public int ghostLayer;
 
-    Camera cam;
-
     private Matrix4x4 WorldToZto =>
         Matrix4x4.Scale(new Vector3(bSize.x, bSize.y, 1)).inverse * Matrix4x4.Translate(bSize / 2);
     // Update is called once per frame
@@ -25,8 +20,6 @@ public class LoopingWorldRenderer : MonoBehaviour
     private void OnEnable()
     {
         if (!Application.isPlaying) return;
-
-        cam = Camera.main;
 
         for (int i = -1; i < 2; i++)
         for (int j = -1; j < 2; j++)
@@ -38,39 +31,53 @@ public class LoopingWorldRenderer : MonoBehaviour
             {
                 if (!stat.gameObject.activeInHierarchy) continue;
                 
-                var newStat = Instantiate(stat);
+                var newStatic = Instantiate(stat);
 
-                newStat.transform.position = xform.MultiplyPoint(stat.transform.position);
-                var mr = newStat.GetComponent<MeshRenderer>();
-                var mf = newStat.GetComponent<MeshFilter>();
-                var ss = newStat.GetComponent<SimpleSprite>();
-                var wb = newStat.GetComponentsInChildren<WorldButton>();
-                if (mr != null) Destroy(mr);
-                if (mf != null) Destroy(mf);
-                if (ss != null) Destroy(ss);
+                newStatic.transform.position = xform.MultiplyPoint(stat.transform.position);
                 
-                foreach (var worldButton in wb) Destroy(worldButton);
+                var iDestroyables = newStatic.GetComponentsInChildren<IDestroyOnClone>();
+                foreach (var comp in iDestroyables) Destroy((MonoBehaviour) comp);
+                
+                RemoveAll<MeshRenderer>(newStatic);
+                RemoveAll<MeshFilter>(newStatic);
+                RemoveAll<AudioSource>(newStatic);
+
             }
 
             foreach (Transform dyn in dynamics)
             {
                 if (!dyn.gameObject.activeInHierarchy) continue;
-                var newDyn = Instantiate(dyn);
+                var newDynamic = Instantiate(dyn);
                 
-                var mr = newDyn.GetComponent<MeshRenderer>();
-                var mf = newDyn.GetComponent<MeshFilter>();
-                var ss = newDyn.GetComponent<SimpleSprite>();
-                if (mr != null) Destroy(mr);
-                if (mf != null) Destroy(mf);
-                if (ss != null) Destroy(ss);
+                var iDestroyables = newDynamic.GetComponentsInChildren<IDestroyOnClone>();
+                foreach (var comp in iDestroyables) Destroy((MonoBehaviour) comp);
                 
-                newDyn.gameObject.layer = 6;
-                var link = newDyn.gameObject.AddComponent<LinkedRb>();
+                RemoveAll<MeshRenderer>(newDynamic);
+                RemoveAll<MeshFilter>(newDynamic);
+                RemoveAll<AudioSource>(newDynamic);
+
+                
+                newDynamic.gameObject.layer = 6;
+                
+                // add link component and bind fields
+                var link = newDynamic.gameObject.AddComponent<LinkedRb>();
                 link.linkOffset = new Vector3(i * bSize.x, j * bSize.y);
                 link.linked = dyn.GetComponent<Rigidbody2D>();
+                
+                var col = dyn.GetComponent<Collider2D>();
+                var linkedCol = link.GetComponent<Collider2D>();
+                Physics2D.IgnoreCollision(col, linkedCol);
+                
+                //force an update
                 link.FixedUpdate();
             }
         }
+    }
+
+    private static void RemoveAll<T>(Transform gameobject) where T : Component
+    {
+        var comps = gameobject.GetComponentsInChildren<T>();
+        foreach (var comp in comps) Destroy(comp);
     }
 
     void Update()

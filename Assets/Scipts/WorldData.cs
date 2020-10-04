@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 public class WorldData : MonoBehaviour
@@ -11,6 +12,8 @@ public class WorldData : MonoBehaviour
     public LoopingWorldRenderer worldRenderer;
     
     public Vector2 worldUp = Vector2.up;
+
+    public int volume = 5;
     
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
     static void Init()
@@ -21,8 +24,6 @@ public class WorldData : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        
-        
         if (instance != this && instance == null)
         {
             instance = this;
@@ -33,6 +34,8 @@ public class WorldData : MonoBehaviour
         {
             Destroy(this);
         }
+        
+        
 
 
     }

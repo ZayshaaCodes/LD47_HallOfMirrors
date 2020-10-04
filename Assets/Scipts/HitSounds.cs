@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HitSounds : MonoBehaviour
+public class HitSounds : MonoBehaviour, IDestroyOnClone
 {
     [SerializeField] private AudioClip hitClip;
     

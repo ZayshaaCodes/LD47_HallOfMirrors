@@ -7,12 +7,12 @@ public class ButtonPair : MonoBehaviour
 
     private void Start()
     {
-        b1.ButtonActivateEvent.AddListener(() =>
+        b1.ButtonActivateEvent.AddListener((i) =>
         {
             b2.DepressButton();
         });
         
-        b2.ButtonActivateEvent.AddListener(() =>
+        b2.ButtonActivateEvent.AddListener((id) =>
         {
             b1.DepressButton();
         });

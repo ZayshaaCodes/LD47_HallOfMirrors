@@ -1,31 +1,64 @@
+using System;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class GravityControler : MonoBehaviour, IToggle
+public class GravityControler : MonoBehaviour, IToggle, IDestroyOnClone
 {
-    public Vector2 activeGravity = Vector2.zero;
+    public WorldButton triggerButton;
 
-    private Vector2 _initialGravity;
+    public Vector2 activeGravity = Vector2.up;
+    public Vector2 revertGravity = Vector2.down;
+
+    public bool revertGravityOnDepress = true;
+
+    public UnityEvent GravityChangedEvent;
+
+    // private Vector2 _initialGravity;
 
     private bool _state = false;
 
     [SerializeField] private bool _changeWorldUp;
 
-    public void ToggleOn()
+    private void Awake()
     {
-        if (_state) return;
-        _initialGravity = Physics2D.gravity;
-        Physics2D.gravity = activeGravity;
-        _state = true;
-        if (_changeWorldUp) WorldData.instance.SetWorldUp(-activeGravity.normalized);
+        if (triggerButton == null)
+        {
+            triggerButton = GetComponent<WorldButton>();
+        }
+
+        if (triggerButton)
+        {
+            triggerButton.ButtonActivateEvent.AddListener(ToggleOn);
+            triggerButton.ButtonDeactivateEvent.AddListener(ToggleOff);
+        }
     }
 
-    public void ToggleOff()
+    public void ToggleOn(int id)
+    {
+        if (revertGravityOnDepress)
+        {
+            revertGravity = Physics2D.gravity;
+        }
+        if (_state) return;
+        _state = true;
+
+        Physics2D.gravity = activeGravity;
+        if (_changeWorldUp) WorldData.instance.SetWorldUp(-activeGravity.normalized);
+
+        GravityChangedEvent.Invoke();
+    }
+
+    public void ToggleOff(int id)
     {
         if (!_state) return;
-        Physics2D.gravity = _initialGravity;
         _state = false;
-        if (_changeWorldUp) WorldData.instance.SetWorldUp(-_initialGravity.normalized);
 
+        if (revertGravityOnDepress)
+        {
+            Physics2D.gravity = revertGravity;
+            if (_changeWorldUp) WorldData.instance.SetWorldUp(-revertGravity.normalized);
+            GravityChangedEvent.Invoke();
+        }
     }
 
     public void Toggle()
@@ -33,18 +66,23 @@ public class GravityControler : MonoBehaviour, IToggle
         _state = !_state;
         if (_state)
         {
-            ToggleOn();
+            ToggleOn(0);
         }
         else
         {
-            ToggleOff();
+            ToggleOff(0);
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawLine(transform.position, transform.position + (Vector3) activeGravity * .1f);
     }
 }
 
 public interface IToggle
 {
-    public void ToggleOn();
-    public void ToggleOff();
+    public void ToggleOn(int id);
+    public void ToggleOff(int id);
     public void Toggle();
 }

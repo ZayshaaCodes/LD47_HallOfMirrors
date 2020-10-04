@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteAlways]
-public class SimpleSprite : MonoBehaviour
+public class SimpleSprite : MonoBehaviour, IDestroyOnClone
 {
     public Texture2D texture;
     public MeshRenderer mr;

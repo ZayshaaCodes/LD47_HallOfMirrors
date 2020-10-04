@@ -7,6 +7,7 @@ public class LinkedRb : MonoBehaviour, ILoopBehaviour
 {
     public Rigidbody2D linked;
     private Rigidbody2D _rb;
+    private Rigidbody _rb2;
 
     public Vector2 linkOffset;
 
@@ -44,8 +45,8 @@ public class LinkedRb : MonoBehaviour, ILoopBehaviour
             var localPoint = transform.InverseTransformPoint(contactPoint2D.point);
             var worldForLinkined = linked.transform.TransformPoint(localPoint);
             
-            Debug.DrawRay(worldForLinkined, normalForce, Color.red, 2);
-            Debug.DrawRay(worldForLinkined, tangentForce, Color.blue, 2);
+            // Debug.DrawRay(worldForLinkined, normalForce, Color.red, 2);
+            // Debug.DrawRay(worldForLinkined, tangentForce, Color.blue, 2);
 
             if (normalForce + tangentForce != new Vector2(Single.NaN, Single.NaN))
             {
@@ -65,6 +66,6 @@ public class LinkedRb : MonoBehaviour, ILoopBehaviour
 
     public void Loop(Vector2 offset)
     {
-        transform.position += (Vector3) offset;
+        transform.position -= (Vector3) offset;
     }
 }

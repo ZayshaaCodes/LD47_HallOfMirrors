@@ -7,24 +7,32 @@
     <e p="X:\UnityProjects\Stuck In A Loop" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ButtonPair.cs" t="Include" />
-        <e p="ExitPortal.cs" t="Include" />
-        <e p="fpsCounter.cs" t="Include" />
-        <e p="GravityControler.cs" t="Include" />
-        <e p="HitSounds.cs" t="Include" />
-        <e p="InputFeedback.cs" t="Include" />
-        <e p="LinkedRb.cs" t="Include" />
-        <e p="OrientToWorldUp.cs" t="Include" />
-        <e p="ParticleAnchor.cs" t="Include" />
-        <e p="ParticleGravityController.cs" t="Include" />
+        <e p="ButtonGroup.cs" t="Include" />
+        <e p="GravityOnStart.cs" t="Include" />
+        <e p="InitialVelocity.cs" t="Include" />
+        <e p="MenuManager.cs" t="Include" />
+        <e p="MoverController.cs" t="Include" />
+        <e p="PauseMenu.cs" t="Include" />
         <e p="Scipts" t="Include">
+          <e p="ButtonPair.cs" t="Include" />
           <e p="ButtonPresser.cs" t="Include" />
+          <e p="ExitPortal.cs" t="Include" />
           <e p="FollowTarget.cs" t="Include" />
+          <e p="fpsCounter.cs" t="Include" />
+          <e p="GravityControler.cs" t="Include" />
+          <e p="HitSounds.cs" t="Include" />
+          <e p="IDestroyOnClone.cs" t="Include" />
           <e p="ILoopBehaviour.cs" t="Include" />
+          <e p="InputFeedback.cs" t="Include" />
+          <e p="LinkedRb.cs" t="Include" />
           <e p="LoopingWorldRenderer.cs" t="Include" />
+          <e p="OrientToWorldUp.cs" t="Include" />
+          <e p="ParticleAnchor.cs" t="Include" />
+          <e p="ParticleGravityController.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="SimpleSprite.cs" t="Include" />
           <e p="WorldButton.cs" t="Include" />
+          <e p="WorldData.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
@@ -57,7 +65,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="WorldData.cs" t="Include" />
+        <e p="TriggerEnterPassthrough.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

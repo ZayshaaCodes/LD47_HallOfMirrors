@@ -13,9 +13,11 @@
       <Path>Library/PackageCache/com.unity.jobs@0.5.0-preview.14</Path>
       <Path>Library/PackageCache/com.unity.mathematics@1.2.1</Path>
       <Path>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0-preview</Path>
+      <Path>Library/PackageCache/com.unity.progrids@3.0.3-preview.6</Path>
       <Path>Library/PackageCache/com.unity.render-pipelines.core@8.1.0</Path>
       <Path>Library/PackageCache/com.unity.render-pipelines.universal@8.1.0</Path>
       <Path>Library/PackageCache/com.unity.searcher@4.0.9</Path>
+      <Path>Library/PackageCache/com.unity.settings-manager@1.0.2</Path>
       <Path>Library/PackageCache/com.unity.shadergraph@8.1.0</Path>
       <Path>Library/PackageCache/com.unity.test-framework.performance@2.3.1-preview</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.16</Path>
@@ -25,6 +27,7 @@
       <Path>ProjectSettings</Path>
     </explicitIncludes>
     <explicitExcludes>
+      <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Build</Path>
       <Path>Library</Path>
