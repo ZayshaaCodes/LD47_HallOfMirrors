@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,41 +23,180 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdd1099d-24fd-44b6-ba9e-994fa434601d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scipts/IDestroyOnClone.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scipts/IDestroyOnClone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FrustrumTileTest.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSharedSpriteData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSpriteDataAuthoring.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SimpleSpriteDataAuthoring.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/ClickDown.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Clickup.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Jump.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/PortalLoop.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/MoveOverTimeComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/MoveOverTimeComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/RenderInstanceComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/RenderInstanceComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/RenderInstanceData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/RenderInstanceData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/SyncTransforms.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/SyncTransforms.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/WorldGridData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/WorldGridData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/WrappingComponentTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Components/WrappingComponentTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/AssertFieldNotNullAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/BaseBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/ButtonAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/Editor/AssertFieldNotNullAttributeDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/Editor/BaseBehaviourEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ButtonGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/CameraUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/CameraUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/CameraWrap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/DrawFrustrumGizmo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ExitPortal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/FollowTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/FrustrumTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/GravityController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/Grid3D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/LinkedRb.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/LoopingWorldRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/LoopingWorldRenderer2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/MoveOverTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/SimpleSprite2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/SimpleSprite2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/TiledWorldPreview.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/ScriptableObjects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/ScriptableObjects/SharedRenderDefinition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/ScriptableObjects/SharedRenderDefinition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/SimpleEntityRenderer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/SimpleEntityRenderer/SharedRenderData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/SimpleEntityRenderer/SharedRenderData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Systems.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Systems/InstanceRenderSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Systems/StaticRenderChunkData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Systems/StaticRenderChunkData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Systems/SyncTransformsSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Systems/SyncTransformsSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Systems/WrapToWorldGridBounds_System.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/UIScripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Utilities/ExpandedViewMatrix.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Utilities/MathUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Utilities/MathUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Utilities/SrdRenderBuffer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Utilities/SrdRenderBuffer.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stuck In A Loop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stuck In A Loop/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stuck In A Loop/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stuck In A Loop/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stuck In A Loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stuck In A Loop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MoverControler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MoverController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MoverControler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MoverController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Box.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Box.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ButtonGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ButtonGroup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ButtonGroup.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GravityOnStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/GravityOnStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GravityOnStart.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/GravityOnStart.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InitialVelocity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/InitialVelocity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InitialVelocity.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/InitialVelocity.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/GameObject Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/GameObject Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials &amp; Shaders/DepthAlpha.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials &amp; Shaders/DepthAlpha.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials &amp; Shaders/Graphs/CameraDepth.shadersubgraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials &amp; Shaders/Graphs/CameraDepth.shadersubgraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials &amp; Shaders/Graphs/Depth Shader Solid.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials &amp; Shaders/Graphs/Depth Shader Solid.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials &amp; Shaders/Stars.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials &amp; Shaders/Stars.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/UIScripts/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/UIScripts/MenuManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MoverController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/MoverController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MoverController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/MoverController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/UIScripts/PauseMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PauseMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/UIScripts/PauseMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Box Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Box Base.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Box Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Box Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Exit Button Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit Button Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WorldBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WorldBox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-2.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-2.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ButtonPair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/ButtonPair.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ExitPortal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/ExitPortal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/GravityControler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/GravityControler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/HitSounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/HitSounds.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/LinkedRb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/LinkedRb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/LinkedRb.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/LinkedRb.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/LoopingWorldRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/LoopingWorldRenderer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/OrientToWorldUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/OrientToWorldUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ParticleGravityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/ParticleGravityController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/SimpleSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/SimpleSprite.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/WorldButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/WorldButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/WorldData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/WorldData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scipts/WorldData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scipts/WorldData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/NewAudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/NewAudioMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ButtonPair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ButtonPair.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ButtonPair.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ButtonPair.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ButtonPresser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ButtonPresser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ButtonPresser.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ButtonPresser.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ExitPortal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ExitPortal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ExitPortal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/FollowTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/FollowTarget.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/FollowTarget.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/GravityControler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/GravityControler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/GravityController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/HitSounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/HitSounds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/HitSounds.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/HitSounds.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/IDestroyOnClone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Interfaces/IDestroyOnClone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/IDestroyOnClone.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Interfaces/IDestroyOnClone.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ILoopBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Interfaces/ILoopBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ILoopBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Interfaces/ILoopBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/InputFeedback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/InputFeedback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/InputFeedback.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/InputFeedback.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/LinkedRb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/LinkedRb.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/LinkedRb.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/LoopingWorldRenderer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/LoopingWorldRenderer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/LoopingWorldRenderer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/OrientToWorldUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/OrientToWorldUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/OrientToWorldUp.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/OrientToWorldUp.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ParticleAnchor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ParticleAnchor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ParticleGravityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ParticleGravityController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/ParticleGravityController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ParticleGravityController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/Player.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/Player.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/SimpleSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/SimpleSprite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/SimpleSprite.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/SimpleSprite.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/WorldButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/WorldButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/WorldButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/WorldButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/WorldData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/WorldData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/WorldData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/WorldData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/fpsCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/UIScripts/fpsCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scipts/fpsCounter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StuckInALoop/UIScripts/fpsCounter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ClickDown.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ClickDown.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ClickUp.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ClickUp.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Jump.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/NewAudioMixer.mixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/NewAudioMixer.mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Portal close.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Portal close.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Portal open.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Portal open.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Portal.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Portal.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PortalLoop.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PortalLoop.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/thump.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/thump.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TriggerEnterPassthrough.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TriggerEnterPassthrough.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,84 +207,144 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TriggerEnterPassthrough.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/38/366218c6/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/29/91ec0ed1/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/float2.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@8.1.0/Runtime/Debugging/DebugManager.Actions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/a1/8a89c10d/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/74/b0bc1a0d/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/5f/a0627c10/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53D5707C-2D91-4000-B80C-AB4F89B623B9/0e/70b2ef8e/IConvertGameObjectToEntity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Transforms/LocalToWorld.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.12.0-preview.13/Unity.Collections/NativeMultiHashMap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.12.0-preview.13/Unity.Collections/NativeList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/GravityOnStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.12.0-preview.13/Unity.Collections/NativeHashMap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/Types/FastEquality.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/TiledWorldPreview.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/eb/5d16bc4d/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/CameraWrap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/Types/TypeManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/524DB921-1520-42B4-B271-1B24FC3C44D3/9f/5c67f227/ParticleSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8B5D99AE-2BED-4BFE-BB18-2C7D461A44CC/d1/7950021d/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GravityOnStart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/76/183ae3a8/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/cd/2043506c/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InitialVelocity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities.Tests/CreateAndDestroyTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/78/b4331405/ValueTuple`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/c3/59abfa80/MeshRenderer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scipts/SimpleSprite.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/IJobChunk.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/SimpleSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Utilities/ExpandedViewMatrix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SimpleSharedSpriteData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/FrustrumTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/ComponentSystemBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TriggerEnterPassthrough.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/d1/3839a2fb/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/matrix.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/Iterators/EntityQuery.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/07/f0e80820/ICollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/a1/8a89c10d/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/math_unity_conversion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/JobComponentSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/74/b0bc1a0d/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/bb/cacf3ba3/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/DrawFrustrumGizmo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/13/a19e4511/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.3.7/Runtime/CompilerServices/Loop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities.Hybrid/ConvertToEntity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/1f/5c3c0a1a/IEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8B5D99AE-2BED-4BFE-BB18-2C7D461A44CC/d1/7950021d/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/37/ea74f196/Gizmos.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/InitialVelocity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/MoveOverTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/4c/817ab53d/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/d2/56eb137d/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/int3.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/CodeGeneratedJobForEach/LambdaJobDescription.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/EntityCommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/CodeGeneratedJobForEach/LambdaParameterValueProviders.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/Grid3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/be/88dd2676/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StuckInALoop/Systems/InstanceRenderSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/SystemBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/17/ae5ca2b8/Bounds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/15/07c55e1e/Matrix4x4.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/f0/acaca109/IList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/EntityCommandBufferSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/float4x4.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/EntityComponentStoreDebug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/76/183ae3a8/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.12.0-preview.13/Unity.Collections/UnsafeHashMap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/cd/2043506c/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/float4.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9584DE34-44B5-42AB-BB1A-D4BB43A7137F/91/c6c217ef/Camera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/EntityDataAccess.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/float3.gen.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/FollowTarget.cs" />
-        <option value="$PROJECT_DIR$/Assets/LoopingWorldRenderer.cs" />
-        <option value="$PROJECT_DIR$/Assets/ButtonPresser.cs" />
-        <option value="$PROJECT_DIR$/Assets/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/WorldButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/SimpleSprite.cs" />
-        <option value="$PROJECT_DIR$/Assets/ParticleGravityController.cs" />
-        <option value="$PROJECT_DIR$/Assets/ButtonPair.cs" />
-        <option value="$PROJECT_DIR$/Assets/OrientToGravity.cs" />
-        <option value="$PROJECT_DIR$/Assets/OrientToWorldUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/GravityControler.cs" />
-        <option value="$PROJECT_DIR$/Assets/TransitionToScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/WorldData.cs" />
-        <option value="$PROJECT_DIR$/Assets/InputFeedback.cs" />
-        <option value="$PROJECT_DIR$/Assets/LinkedRb.cs" />
-        <option value="$PROJECT_DIR$/Assets/fpsCounter.cs" />
-        <option value="$PROJECT_DIR$/Assets/HitSounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/ExitPortal.cs" />
-        <option value="$PROJECT_DIR$/Assets/MoverControler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/LinkedRb.cs" />
-        <option value="$PROJECT_DIR$/Assets/MenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/ParticleGravityController.cs" />
-        <option value="$PROJECT_DIR$/Assets/TiggerEnterPassthrough.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/IDestroyOnClone.cs" />
-        <option value="$PROJECT_DIR$/Assets/InitialVelocity.cs" />
-        <option value="$PROJECT_DIR$/Assets/TriggerEnterPassthrough.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/SimpleSprite.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/OrientToWorldUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/LoopingWorldRenderer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/HitSounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/ExitPortal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/ButtonPair.cs" />
-        <option value="$PROJECT_DIR$/Assets/MoverController.cs" />
-        <option value="$PROJECT_DIR$/Assets/ButtonGroup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/WorldButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/GravityControler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scipts/WorldData.cs" />
-        <option value="$PROJECT_DIR$/Assets/GravityOnStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ButtonPresser.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/DrawFrustrumGizmo.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/WorldData.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/OrientToWorldUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/MoverController.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/MoveOverTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/LoopingWorldRenderer2.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/InputFeedback.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/InitialVelocity.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/GravityOnStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/GravityControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/GravityController.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/FrustrumTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/FollowTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ExitPortal.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/CameraWrap.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/CameraUtilities.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ButtonPair.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/UIScripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/BaseBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/AssertFieldNotNullAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/ButtonAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/Editor/AssertFieldNotNullAttributeDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/EditorTools/Editor/BaseBehaviourEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/TiledWorldPreview.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/ScriptableObjects/SharedRenderDefinition.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/SimpleSprite2.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/SharedSimpleSpriteData.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleSprite3.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleSpriteData.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/SimpleEntityRenderer/SimpleSharedRenderData.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleSharedSpriteData.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimplePatternRenderData.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/SimpleEntityRenderer/SimpleSpriteRenderSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/SimpleEntityRenderer/SharedRenderData.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Components/RenderInstanceComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/SimpleEntityRenderer/WorldGridData.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Components/WorldGridData.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/SimpleEntityRenderer/SpriteRenderSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Systems/SyncTransformsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Components/MoveOverTimeComponent.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/JobComponentSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/Grid3D.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Systems/StaticRenderChunkData.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleSpriteDataAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/HitSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Systems/WrapToGridSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Systems/WrapToWorldGridBoundsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Systems/WrapToWorldGridBounds_System.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.14.0-preview.19/Unity.Entities/IJobChunk.cs" />
+        <option value="$PROJECT_DIR$/Assets/StuckInALoop/Systems/InstanceRenderSystem.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1iLEo3I4APJLnY7bchf01LIt5cd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35017544" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30035087" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.28318137" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.24214792" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -152,6 +354,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -172,10 +376,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="23432">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="10528">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="23432" />
+      <option name="pid" value="10528" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -195,6 +399,35 @@
       <workItem from="1601765152684" duration="8403000" />
       <workItem from="1601774292549" duration="9232000" />
       <workItem from="1601791700440" duration="25865000" />
+      <workItem from="1601861364826" duration="33000" />
+      <workItem from="1601867403742" duration="120000" />
+      <workItem from="1601868541566" duration="43040000" />
+      <workItem from="1602279311420" duration="19470000" />
+      <workItem from="1602364990296" duration="2462000" />
+      <workItem from="1602368342119" duration="3993000" />
+      <workItem from="1602372363397" duration="32897000" />
+      <workItem from="1602462195079" duration="7697000" />
+      <workItem from="1602565515326" duration="2335000" />
+      <workItem from="1602570596842" duration="1939000" />
+      <workItem from="1602642565913" duration="4767000" />
+      <workItem from="1602650287769" duration="4196000" />
+      <workItem from="1602737196336" duration="1349000" />
+      <workItem from="1602740258297" duration="6451000" />
+      <workItem from="1602821013911" duration="9983000" />
+      <workItem from="1602913645703" duration="7712000" />
+      <workItem from="1602958343694" duration="145000" />
+      <workItem from="1602958693135" duration="2153000" />
+      <workItem from="1602967674965" duration="7280000" />
+      <workItem from="1602975227612" duration="7629000" />
+      <workItem from="1602994291517" duration="13625000" />
+      <workItem from="1603054135332" duration="4883000" />
+      <workItem from="1603071947761" duration="2818000" />
+      <workItem from="1603075356049" duration="37380000" />
+      <workItem from="1603590919279" duration="13382000" />
+      <workItem from="1603611090089" duration="324000" />
+      <workItem from="1603611726844" duration="1771000" />
+      <workItem from="1603613517493" duration="4780000" />
+      <workItem from="1603653556439" duration="1262000" />
     </task>
     <servers />
   </component>
@@ -213,122 +446,247 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="414" height="449" key="DebuggerActiveHint" timestamp="1601842331807">
+    <state x="646" y="577" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603073552306">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="646" y="577" key="#com.intellij.fileTypes.FileTypeChooser/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603073552306" />
+    <state x="616" y="620" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1603071853639">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="616" y="620" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603071853639" />
+    <state width="453" height="449" key="DebuggerActiveHint" timestamp="1603652166787">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="414" height="449" key="DebuggerActiveHint/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601842331807" />
-    <state width="1456" height="466" key="GridCell.Tab.0.bottom" timestamp="1601849252928">
+    <state width="1120" height="449" key="DebuggerActiveHint/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603609898231" />
+    <state width="453" height="449" key="DebuggerActiveHint/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603652166787" />
+    <state width="1120" height="449" key="DebuggerActiveHint/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603074971031" />
+    <state width="2005" height="412" key="GridCell.Tab.0.bottom" timestamp="1603654195633">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.0.bottom/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252928" />
-    <state width="1456" height="466" key="GridCell.Tab.0.center" timestamp="1601849252928">
+    <state width="2005" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195633" />
+    <state width="2005" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241301" />
+    <state width="1877" height="436" key="GridCell.Tab.0.bottom/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.0.bottom/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.0.center" timestamp="1603654195633">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.0.center/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252928" />
-    <state width="1456" height="466" key="GridCell.Tab.0.left" timestamp="1601849252928">
+    <state width="2005" height="412" key="GridCell.Tab.0.center/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195633" />
+    <state width="2005" height="412" key="GridCell.Tab.0.center/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241301" />
+    <state width="1877" height="436" key="GridCell.Tab.0.center/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.0.center/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.0.left" timestamp="1603654195633">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.0.left/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252928" />
-    <state width="1456" height="466" key="GridCell.Tab.0.right" timestamp="1601849252928">
+    <state width="2005" height="412" key="GridCell.Tab.0.left/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195633" />
+    <state width="2005" height="412" key="GridCell.Tab.0.left/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241301" />
+    <state width="1877" height="436" key="GridCell.Tab.0.left/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305899" />
+    <state width="1599" height="344" key="GridCell.Tab.0.left/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275346" />
+    <state width="2005" height="412" key="GridCell.Tab.0.right" timestamp="1603654195633">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.0.right/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252928" />
-    <state width="1456" height="466" key="GridCell.Tab.1.bottom" timestamp="1601849252928">
+    <state width="2005" height="412" key="GridCell.Tab.0.right/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195633" />
+    <state width="2005" height="412" key="GridCell.Tab.0.right/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241301" />
+    <state width="1877" height="436" key="GridCell.Tab.0.right/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.0.right/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.1.bottom" timestamp="1603654944006">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.1.bottom/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252928" />
-    <state width="1456" height="466" key="GridCell.Tab.1.center" timestamp="1601849252928">
+    <state width="2005" height="412" key="GridCell.Tab.1.bottom/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654944006" />
+    <state width="2005" height="412" key="GridCell.Tab.1.bottom/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653243597" />
+    <state width="1877" height="436" key="GridCell.Tab.1.bottom/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367306414" />
+    <state width="1599" height="344" key="GridCell.Tab.1.bottom/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.1.center" timestamp="1603654944006">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.1.center/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252928" />
-    <state width="1456" height="466" key="GridCell.Tab.1.left" timestamp="1601849252928">
+    <state width="2005" height="412" key="GridCell.Tab.1.center/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654944006" />
+    <state width="2005" height="412" key="GridCell.Tab.1.center/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653243597" />
+    <state width="1877" height="436" key="GridCell.Tab.1.center/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367306413" />
+    <state width="1599" height="344" key="GridCell.Tab.1.center/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.1.left" timestamp="1603654944006">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.1.left/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252928" />
-    <state width="1456" height="466" key="GridCell.Tab.1.right" timestamp="1601849252928">
+    <state width="2005" height="412" key="GridCell.Tab.1.left/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654944006" />
+    <state width="2005" height="412" key="GridCell.Tab.1.left/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653243597" />
+    <state width="1877" height="436" key="GridCell.Tab.1.left/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367306413" />
+    <state width="1599" height="344" key="GridCell.Tab.1.left/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.1.right" timestamp="1603654944006">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.1.right/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252928" />
-    <state width="1456" height="466" key="GridCell.Tab.2.bottom" timestamp="1601849252929">
+    <state width="2005" height="412" key="GridCell.Tab.1.right/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654944006" />
+    <state width="2005" height="412" key="GridCell.Tab.1.right/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653243597" />
+    <state width="1877" height="436" key="GridCell.Tab.1.right/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367306414" />
+    <state width="1599" height="344" key="GridCell.Tab.1.right/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.2.bottom" timestamp="1603654195499">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.2.bottom/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252929" />
-    <state width="1456" height="466" key="GridCell.Tab.2.center" timestamp="1601849252929">
+    <state width="2005" height="412" key="GridCell.Tab.2.bottom/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195499" />
+    <state width="2005" height="412" key="GridCell.Tab.2.bottom/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241140" />
+    <state width="1877" height="436" key="GridCell.Tab.2.bottom/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.2.bottom/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.2.center" timestamp="1603654195499">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.2.center/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252929" />
-    <state width="1456" height="466" key="GridCell.Tab.2.left" timestamp="1601849252928">
+    <state width="2005" height="412" key="GridCell.Tab.2.center/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195499" />
+    <state width="2005" height="412" key="GridCell.Tab.2.center/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241139" />
+    <state width="1877" height="436" key="GridCell.Tab.2.center/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.2.center/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.2.left" timestamp="1603654195499">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.2.left/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252928" />
-    <state width="1456" height="466" key="GridCell.Tab.2.right" timestamp="1601849252929">
+    <state width="2005" height="412" key="GridCell.Tab.2.left/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195499" />
+    <state width="2005" height="412" key="GridCell.Tab.2.left/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241139" />
+    <state width="1877" height="436" key="GridCell.Tab.2.left/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.2.left/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.2.right" timestamp="1603654195499">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.2.right/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252929" />
-    <state width="1456" height="466" key="GridCell.Tab.3.bottom" timestamp="1601849252929">
+    <state width="2005" height="412" key="GridCell.Tab.2.right/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195499" />
+    <state width="2005" height="412" key="GridCell.Tab.2.right/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241140" />
+    <state width="1877" height="436" key="GridCell.Tab.2.right/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.2.right/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.3.bottom" timestamp="1603654195499">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.3.bottom/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252929" />
-    <state width="1456" height="466" key="GridCell.Tab.3.center" timestamp="1601849252929">
+    <state width="2005" height="412" key="GridCell.Tab.3.bottom/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195499" />
+    <state width="2005" height="412" key="GridCell.Tab.3.bottom/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241140" />
+    <state width="1877" height="436" key="GridCell.Tab.3.bottom/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.3.bottom/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.3.center" timestamp="1603654195499">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.3.center/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252929" />
-    <state width="1456" height="466" key="GridCell.Tab.3.left" timestamp="1601849252929">
+    <state width="2005" height="412" key="GridCell.Tab.3.center/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195499" />
+    <state width="2005" height="412" key="GridCell.Tab.3.center/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241140" />
+    <state width="1877" height="436" key="GridCell.Tab.3.center/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.3.center/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.3.left" timestamp="1603654195499">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.3.left/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252929" />
-    <state width="1456" height="466" key="GridCell.Tab.3.right" timestamp="1601849252929">
+    <state width="2005" height="412" key="GridCell.Tab.3.left/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195499" />
+    <state width="2005" height="412" key="GridCell.Tab.3.left/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241140" />
+    <state width="1877" height="436" key="GridCell.Tab.3.left/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.3.left/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state width="2005" height="412" key="GridCell.Tab.3.right" timestamp="1603654195499">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state width="1456" height="466" key="GridCell.Tab.3.right/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601849252929" />
-    <state x="-1665" y="-32" key="RiderGenerateDialog" timestamp="1601835235416">
-      <screen x="-2560" y="-350" width="2560" height="1410" />
+    <state width="2005" height="412" key="GridCell.Tab.3.right/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603654195499" />
+    <state width="2005" height="412" key="GridCell.Tab.3.right/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603653241140" />
+    <state width="1877" height="436" key="GridCell.Tab.3.right/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@-1920.366.1920.1050" timestamp="1602367305900" />
+    <state width="1599" height="344" key="GridCell.Tab.3.right/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603478275347" />
+    <state x="895" y="318" key="RiderGenerateDialog" timestamp="1603266333877">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="-1665" y="-32" key="RiderGenerateDialog/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601835235416" />
+    <state x="895" y="318" key="RiderGenerateDialog/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603266333877" />
+    <state x="815" y="374" key="SettingsEditor" timestamp="1603174433864">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="815" y="374" key="SettingsEditor/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603174433864" />
     <state width="498" height="398" key="SwitcherDM" timestamp="1601706425228">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601706425228" />
-    <state x="-1317" y="98" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601774920598">
+    <state x="495" y="508" key="Vcs.Push.Dialog.v2" timestamp="1603073512453">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="495" y="508" key="Vcs.Push.Dialog.v2/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603073512453" />
+    <state x="-1317" y="98" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603613705966">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state x="-1317" y="98" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601774920598" />
-    <state x="1243" y="448" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1601681703001" />
+    <state x="-1317" y="98" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603613705966" />
+    <state x="1243" y="448" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603066712040" />
     <state x="-1933" y="119" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601842395918">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
     <state x="-1933" y="119" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601842395918" />
-    <state x="-1755" y="174" key="run.anything.popup" timestamp="1601686657043">
+    <state x="1419" y="464" width="666" height="534" key="find.popup" timestamp="1602441144644">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1419" y="464" width="666" height="534" key="find.popup/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1602441144644" />
+    <state x="-1755" y="174" width="672" height="677" key="run.anything.popup" timestamp="1603593486124">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state x="-1755" y="174" key="run.anything.popup/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601686657043" />
-    <state x="-1836" y="-39" width="672" height="678" key="search.everywhere.popup" timestamp="1601841740951">
+    <state x="-1755" y="174" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603593486124" />
+    <state x="-1755" y="174" key="run.anything.popup/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1602053734515" />
+    <state x="805" y="524" width="672" height="677" key="run.anything.popup/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603087633049" />
+    <state x="-1836" y="-39" width="672" height="678" key="search.everywhere.popup" timestamp="1603652019097">
       <screen x="-2560" y="-350" width="2560" height="1410" />
     </state>
-    <state x="-1836" y="-39" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1601841740951" />
+    <state x="-1836" y="-39" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-2560.-350.2560.1410/-4480.16.1920.1050@-2560.-350.2560.1410" timestamp="1603602529136" />
+    <state x="-1836" y="-39" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-4480.16.1920.1050/-2560.-350.2560.1410@-2560.-350.2560.1410" timestamp="1603652019097" />
+    <state x="724" y="311" width="672" height="678" key="search.everywhere.popup/2560.350.1920.1050/-1920.366.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1603347968399" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scipts/WorldButton.cs</url>
-          <line>72</line>
-          <properties documentPath="X:\UnityProjects\Stuck In A Loop\Assets\Scipts\WorldButton.cs" initialLine="72">
+          <url>file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/WorldButton.cs</url>
+          <line>73</line>
+          <properties documentPath="X:\UnityProjects\Stuck In A Loop\Assets\Scipts\WorldButton.cs" initialLine="72" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/StuckInALoop/Monobehaviours/ExitPortal.cs</url>
+          <line>36</line>
+          <properties documentPath="X:\UnityProjects\Stuck In A Loop\Assets\Scipts\ExitPortal.cs" initialLine="35" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/StuckInALoop/Utilities/SrdRenderBuffer.cs</url>
+          <line>71</line>
+          <properties documentPath="X:\UnityProjects\Stuck In A Loop\Assets\SrdRenderBuffer.cs" initialLine="71" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/StuckInALoop/Systems/InstanceRenderSystem.cs</url>
+          <line>75</line>
+          <properties documentPath="X:\UnityProjects\Stuck In A Loop\Assets\StuckInALoop\Systems\InstanceRenderSystem.cs" initialLine="75">
             <startOffsets>
-              <option value="2204" />
+              <option value="2876" />
             </startOffsets>
             <endOffsets>
-              <option value="2244" />
+              <option value="2904" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/StuckInALoop/Systems/InstanceRenderSystem.cs</url>
+          <line>69</line>
+          <properties documentPath="X:\UnityProjects\Stuck In A Loop\Assets\StuckInALoop\Systems\InstanceRenderSystem.cs" initialLine="69">
+            <startOffsets>
+              <option value="2664" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2716" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/StuckInALoop/Systems/InstanceRenderSystem.cs</url>
+          <line>58</line>
+          <properties documentPath="X:\UnityProjects\Stuck In A Loop\Assets\StuckInALoop\Systems\InstanceRenderSystem.cs" initialLine="58">
+            <startOffsets>
+              <option value="2134" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3448" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#System.Collections.Generic.KeyValuePair`2" memberName="Value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

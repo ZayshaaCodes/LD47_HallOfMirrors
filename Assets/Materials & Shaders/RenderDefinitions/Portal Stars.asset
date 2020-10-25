@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1cbd5372d9a47ec8a3405e62f03cc8b, type: 3}
+  m_Name: Portal Stars
+  m_EditorClassIdentifier: 
+  color: {r: 0.5520116, g: 0.5520116, b: 0.5520116, a: 1}
+  texture: {fileID: 0}
+  mesh: {fileID: -2607347306135948246, guid: c584e2beb59d98e4b81f1106dd2c2e2e, type: 3}
+  material: {fileID: 2100000, guid: b71ae2a9afbd65e43bb5f2ffa2f7fc71, type: 2}
+  enabled: 0

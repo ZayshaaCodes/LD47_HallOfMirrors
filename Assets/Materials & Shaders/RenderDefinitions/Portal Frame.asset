@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1cbd5372d9a47ec8a3405e62f03cc8b, type: 3}
+  m_Name: Portal Frame
+  m_EditorClassIdentifier: 
+  color: {r: 0.5197651, g: 0, b: 1.9056605, a: 1}
+  texture: {fileID: 0}
+  mesh: {fileID: -6360558719573625917, guid: c584e2beb59d98e4b81f1106dd2c2e2e, type: 3}
+  material: {fileID: 2100000, guid: 19ffd96dfa0a9f54da3fc6fc1b16c11c, type: 2}
+  enabled: 1

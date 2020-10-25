@@ -848,7 +848,7 @@ MonoBehaviour:
   itemContainer: {fileID: 4709186748377375766}
   selectionRectXform: {fileID: 6051521641641997531}
   audioSource: {fileID: 1701628337}
-  clickSound: {fileID: 8300000, guid: 246f66691438eff4e9755ee0b51545c9, type: 3}
+  clickSound: {fileID: 8300000, guid: 33416df2baccdd54997010f37e53f754, type: 3}
   selectSound: {fileID: 8300000, guid: 2c423550cbcd0b34a920c5f0503e84f9, type: 3}
   _mixer: {fileID: 24100000, guid: 9489a5a665805c848a885553b4040d56, type: 2}
   curve:
