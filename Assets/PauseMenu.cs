@@ -104,8 +104,8 @@ public class PauseMenu : MonoBehaviour
 
     public void UpdateVolumeText()
     {
-        itemContainer.GetChild(2).GetChild(1).GetComponent<TMP_Text>().text =
-            WorldData.instance.volume.ToString();
+        // itemContainer.GetChild(2).GetChild(1).GetComponent<TMP_Text>().text =
+            // WorldData.instance.volume.ToString();
     }
     
     private void SetSelection(int id)

@@ -7,10 +7,13 @@ public class SyncWithInjectedObjectSystem : JobComponentSystem
 {
     protected override JobHandle OnUpdate(JobHandle inputDeps)
     {
-        Entities.WithoutBurst().ForEach((Transform xform, OffsetSyncWithTraget offsetSyncData, ref LocalToWorld ltw ) =>
+        int i = 0;
+        Entities.WithNone<OffsetSyncWithTraget>().WithoutBurst().ForEach((Transform xform, ref LocalToWorld ltw) =>
         {
-            ltw.Value = Matrix4x4.Translate(offsetSyncData.offset) * xform.localToWorldMatrix;
+            ltw.Value = xform.localToWorldMatrix;
+            i++;
         }).Run();
+        Debug.Log(i);
         
 
         return inputDeps;

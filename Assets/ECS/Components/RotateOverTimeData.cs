@@ -4,7 +4,7 @@ using Unity.Mathematics;
 namespace ECS.Components
 {
     [GenerateAuthoringComponent]
-    public struct RotateOverTime : IComponentData
+    public struct RotateOverTimeData : IComponentData
     {
         public float3 angularVelocity;
     }
