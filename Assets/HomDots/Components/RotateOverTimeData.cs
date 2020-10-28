@@ -1,7 +1,7 @@
 ﻿using Unity.Entities;
 using Unity.Mathematics;
 
-namespace ECS.Components
+namespace HomDots.Components
 {
     [GenerateAuthoringComponent]
     public struct RotateOverTimeData : IComponentData

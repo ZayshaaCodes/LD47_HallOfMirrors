@@ -1,10 +1,10 @@
-﻿using ECS.Components;
+﻿using HomDots.Components;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Transforms;
 
-namespace ECS.Systems
+namespace HomDots.Systems
 {
     public class RotateOverTimeSystem : JobComponentSystem
     {

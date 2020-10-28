@@ -104,7 +104,7 @@ public class Player : MonoBehaviour, ILoopBehaviour, IDestroyOnClone
         }
     }
 
-    public void Loop(Vector2 offset)
+    public void Loop(Vector3 offset)
     {
         if (_tr)
         {

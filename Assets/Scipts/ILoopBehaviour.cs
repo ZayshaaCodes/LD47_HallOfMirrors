@@ -2,5 +2,5 @@
 
 public interface ILoopBehaviour
 {
-    public void Loop(Vector2 offset);
+    public void Loop(Vector3 offset);
 }

@@ -64,8 +64,8 @@ public class LinkedRb : MonoBehaviour, ILoopBehaviour
     {
     }
 
-    public void Loop(Vector2 offset)
+    public void Loop(Vector3 offset)
     {
-        transform.position -= (Vector3) offset;
+        transform.position -= offset;
     }
 }
